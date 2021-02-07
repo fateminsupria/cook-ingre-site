@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cooking Monster</title>
+  </head>
+  <body>
+    <nav>
+      <h1 class="title">Cooking Monster</h1>
+      <div class="menu-item">
+        <ul class="nav-item">
+          <li class="nav-link">Home</li>
+          <li class="nav-link">About</li>
+          <li class="nav-link">Recipe</li>
+          <li class="nav-link">Blog</li>
+        </ul>
+      </div>
+    </nav>
+      <!-- nav-bar finished -->
+    <!-- search area -->
+    <section class="search-area">
+      <i class="material-icons search-icon">search</i>
+      <input id="result-search" class="result-search" type="text" id="search-input" placeholder="Search food ingredients"  autocomplete="off" />
+      <button id="search-btn" class="search-btn">Search</button>
+    </section>
+    <section id="detail-area" class="detail-area"></section>
+    <section id="display-area" class="display-area"></section>
+    <!-- link with js -->
+    <script src="api.js"></script>
+  </body>
+</html>
