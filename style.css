@@ -178,7 +178,7 @@ body {
   .modal-body {
     line-height: 2em;
   }
-  .loader {
+  .loaderPresent {
     width: 30px;
     height: 30px;
     border: 10px solid #f3f3f3;
